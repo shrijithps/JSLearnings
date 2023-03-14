@@ -31,3 +31,15 @@ console.log(firstName+" "+lastName)
 
 let user = "Jimmy Carter \"Stock\""
 console.log(user)
+
+//Null
+let ab = null
+console.log(ab)
+
+//undefined
+let d;
+console.log(d)
+
+//Nan
+let e = 5/"Jimmy"
+console.log(e)
