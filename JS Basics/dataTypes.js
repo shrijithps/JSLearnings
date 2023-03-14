@@ -1,0 +1,23 @@
+//Data Types - Primitive and Object
+//Primitive tyoes - Number, BigInt, String, Boolean, Null, Undefined, Symbol
+
+let data = 9
+console.log(data*0.5)
+
+let num1 = 9/0
+console.log(num1)
+
+let num2 = -5/0
+console.log(num2)
+
+//BigInt
+let num3 = 12213131313131313131313222222222222222222222222222222222n
+console.log(num3+2n)
+
+//Boolean
+let a = true
+let b = false
+
+let c = 2>3
+
+console.log(c)
