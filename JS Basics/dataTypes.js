@@ -1,6 +1,7 @@
 //Data Types - Primitive and Object
 //Primitive tyoes - Number, BigInt, String, Boolean, Null, Undefined, Symbol
 
+//Numbers
 let data = 9
 console.log(data*0.5)
 
@@ -19,5 +20,14 @@ let a = true
 let b = false
 
 let c = 2>3
-
 console.log(c)
+
+//String
+let firstName = "Jimmy"
+let lastName = "Carter"
+
+console.log(firstName+" "+lastName)
+
+
+let user = "Jimmy Carter \"Stock\""
+console.log(user)
