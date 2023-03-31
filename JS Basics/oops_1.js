@@ -1,7 +1,5 @@
 class A{
-    constructor(a=90){
-        this.a = a;
-    }
+    a  = 90;
 }
 
 class B extends A{
@@ -10,6 +8,7 @@ class B extends A{
     }
 }
 
-let obj = new A(98);
+let obj = new A();
 let obj1 = new B()
 obj1.mymethod();
+console.log(obj.a)
