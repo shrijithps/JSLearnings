@@ -8,5 +8,4 @@ function func1(msg){
     return func2();
 }
 
-
 func1("Hai");
