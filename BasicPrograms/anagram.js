@@ -4,5 +4,6 @@ class Anagram{
     }
 }
 
+
 let obj = new Anagram();
 console.log(obj.anagram("geeksforgeeks", "forgeeksgeeks"))
