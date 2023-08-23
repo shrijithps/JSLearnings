@@ -1,7 +1,7 @@
 class saveIronMan{
     method(str){
         let fString = str.replace(/[^a-zA-Z]/g, "");
-        console.log(fString)
+        console.log(fString);
     }
 }
 
