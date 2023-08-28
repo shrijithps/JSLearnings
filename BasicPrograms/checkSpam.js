@@ -6,4 +6,3 @@ function checkSpam(str){
 }
 
 console.log(checkSpan("buy xXXXX now"))
-
