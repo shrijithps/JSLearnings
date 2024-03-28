@@ -14,9 +14,13 @@ const b = () => {
     })
 };
 
-Promise.any([b(), a()]).then(data => {
-            console.log("value:", data)
-        })
-        .catch(errors => {
-            console.log("Error:", data)
+Promise.allSettled([b(), a()]).then(results => {
+            results.forEach(result => {
+                if(result.status == 'fulfilled'){
+                    console.log("Value :", result.value);
+                }
+                else{
+                    console.error("Reason for rejection ", result.reason)
+                }
+            });
         });
